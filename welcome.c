@@ -2,16 +2,13 @@
 
 void display()
 {
-    for (int i = 0; i < 30; ++i){
-    	printf("*");
+    for (int i = 0; i < 60; ++i){
+       	if ( 30 == i) {
+            printf("\n [2018] One World, One Dream. \n");       
+        }else {
+            printf("*");
+        }
     }	
-    printf("\n");
-    printf("Welcome Yocto World!\n");
-
-    for (int i = 0; i < 30; ++i) {
-    	printf("*");
-    }
-    printf("\n");
 
     return ;
 }
